@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<!--
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+        android:textSize="20dp"
+            android:text="20090121_정연호"
+            />
+
+-->
+
+       <android.support.v4.view.ViewPager
+           android:id="@+id/pager"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="#ffffffff"
+
+           />
+
+   </LinearLayout>
